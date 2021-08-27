@@ -23,11 +23,11 @@ handlers:
 loggers:
   test_log:
     level: DEBUG
-    handlers: [console, file]
+    handlers: [console]
     propogate: no
   __main__:
     level: INFO
-    handlers: [console, file]
+    handlers: [console]
     propogate: no
 
 
