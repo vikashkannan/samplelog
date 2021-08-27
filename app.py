@@ -9,6 +9,7 @@ ASSETS_DIR = os.path.dirname(os.path.abspath(__file__))
 app = Flask(__name__)
 
 log = log_helper.get_logger(__name__)
+log_helper.log_setup()
 
 
 def main():
@@ -20,7 +21,7 @@ def main():
 @app.route('/', methods=['GET'])
 def index():
     test_logger()
-    return render_template('index.html')
+    return "Welcome to Azure"
 
 
 @app.route('/data')
@@ -28,8 +29,3 @@ def names():
     test_logger()
     data = {"names": ["John", "Jacob", "Julie", "Jennifer"]}
     return data
-
-
-if __name__ == '__main__':
-    log_helper.log_setup()
-    main()
