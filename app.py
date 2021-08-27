@@ -33,4 +33,4 @@ def names():
 if __name__ == '__main__':
     log_helper.log_setup()
     main()
-    app.run('0.0.0.0', debug=False, port=8100)
+    app.run('0.0.0.0', debug=False, port=8000)
