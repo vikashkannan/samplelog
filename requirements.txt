@@ -17,7 +17,6 @@ docx2txt			# Minimum version
 sumy				# Minimum version
 apscheduler			# Minimum version
 scikit-multilearn		# Minimum version
-skmultilearn			# Minimum version
 hyperopt			# Minimum version
 xgboost				# Minimum version
 shareplum			# Minimum version
