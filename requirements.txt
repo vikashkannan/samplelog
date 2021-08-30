@@ -5,7 +5,6 @@ pandas       >= 0.23.0          # Minimum version
 SciPy        >= 0.13.3          # Minimum version
 scikit-learn >= 0.19.1          # Minimum version
 pymongo      >= 3.7.1           # Minimum version
-Flask        >= 1.0.2           # Minimum version
 flask-restful >= 0.3.6          # Minimum version
 flask-snow   >=  0.2.8          # Minimum version
 flask_cors   >= 3.0.4           # Minimum version
