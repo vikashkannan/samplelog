@@ -76,7 +76,7 @@ sumy
 docx2txt
 PyPDF2
 sendgrid
-pywin32
+pypiwin32
 matplotlib
 IPython
 pillow                          
