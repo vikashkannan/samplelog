@@ -1,86 +1,27 @@
 Flask>=1.0,<=1.1.2
 PyYAML==5.4.1
-spacy
-SharePlum
-gensim
-ntlm-auth
-requests-ntlm
-setuptools
-pytesseract
-python-magic   
-scikit-multilearn
-opencv-python
-numpy           
-pandas       
-SciPy        
-scikit-learn 
-pymongo      
-Flask         
-flask-restful 
-flask-snow   
-flask_cors   
-requests     
-pysnow       
-servicenow   
-xlrd         
-gevent         
-APScheduler   
-textblob     
-nltk         
-hyperopt     
-xgboost	     
-pypdf2
-docx2txt
-breadability
-certifi
-cffi
-chardet
-Click
-colorama
-decorator
-defusedxml
-docutils
-Flask_Sphinx_Themes
-greenlet
-httpretty
-idna
-ijson
-imagesize
-itsdangerous
-Jinja2
-MarkupSafe
-oauthlib
-packaging
-pbr
-pycparser
-Pygments
-pyparsing
-python_dateutil
-pytz
-redis
-requests_oauthlib
-singledispatch
-six
-snowballstemmer
-SOAPpy
-Sphinx
-sphinxcontrib_websupport
-tzlocal
-urllib3
-Werkzeug
-wstools
-xgboost
-requests-toolbelt
-hyperopt
-sumy
-docx2txt
-PyPDF2
-sendgrid
-pypiwin32
-matplotlib
-IPython
-pillow                          
-bson
-imutils
-en_core_web_sm
-en_core_web_md
+numpy        >= 1.14.3          # Minimum version   
+pandas       >= 0.23.0          # Minimum version 
+SciPy        >= 0.13.3          # Minimum version
+scikit-learn >= 0.19.1          # Minimum version
+pymongo      >= 3.7.1           # Minimum version
+Flask        >= 1.0.2           # Minimum version
+flask-restful >= 0.3.6          # Minimum version
+flask-snow   >=  0.2.8          # Minimum version
+flask_cors   >= 3.0.4           # Minimum version
+requests     >=2.18.4           # Minimum version
+pysnow       >=0.7.4            # Minimum version
+servicenow   >=2.1.0            # Minimum version
+PyPDF2				# Minimum version
+docx2txt			# Minimum version
+sumy				# Minimum version
+apscheduler			# Minimum version
+scikit-multilearn		# Minimum version
+skmultilearn			# Minimum version
+hyperopt			# Minimum version
+xgboost				# Minimum version
+shareplum			# Minimum version
+textblob			# Minimum version
+spacy				# Minimum version
+nltk				# Minimum version
+xlrd				# Minimum version
